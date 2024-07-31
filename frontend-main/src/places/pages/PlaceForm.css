@@ -1,0 +1,30 @@
+.place-form {
+    list-style: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    background: white;
+  }
+
+
+.location-button-anchor{
+  text-decoration: none;
+  color: white;
+  padding: 1.1rem 5rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: linear-gradient(0deg, #ff1161, #fa4e4e);
+  border: none;
+  box-shadow: 1px 1px 4px 0 #008183;
+}
+
+.location-button-anchor:hover{
+  background: linear-gradient(180deg, #ff1161, #fa4e4e);
+  box-shadow: 2px 3px 6px 0 #008183, -1px -1px 6px -2px #008183;
+  cursor: pointer;
+}
